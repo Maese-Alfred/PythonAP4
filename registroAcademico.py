@@ -3,6 +3,10 @@ from funciones import *
 from nodo import LinkedList
 from materia import Materia
 
+from estudiante import Estudiante
+from funciones import *
+from nodo import LinkedList
+
 def obtenerMaterias():
     lista = LinkedList()
     while True:
@@ -84,3 +88,6 @@ def main():
 
         else:
             print("Opción inválida.")
+
+if __name__ == "__main__":
+    main()
